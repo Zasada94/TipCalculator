@@ -23,7 +23,7 @@ const increasePeople = () => {
 const decreasePeople = () => {
 	if (numberOfPeople > 1) {
 		numberOfPeople--;
-		numberOf.innerText = numberOfPeople;
+		numberOfPeopleDiv.innerText = numberOfPeople;
 		calculateBill();
 	}
 };
